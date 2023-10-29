@@ -1,0 +1,97 @@
+﻿group;home_team;score_home;score_away;away_team;stadium;team_xg1;team_xg2
+A;Ajax;4;0;Rangers;Amsterdam Arena;0.4;2.8
+A;Napoli;4;1;Liverpool;San Paolo;3.4;5.6
+A;Liverpool;2;1;Ajax;Anfield;0.5;4.3
+A;Rangers;0;3;Napoli;Ibrox Stadium;5.1;5.7
+A;Ajax;1;6;Napoli;Amsterdam Arena;3.9;0.7
+A;Liverpool;2;0;Rangers;Anfield;4.8;3.7
+A;Napoli;4;2;Ajax;San Paolo;4;2.9
+A;Rangers;1;7;Liverpool;Ibrox Stadium;5.4;4.4
+A;Ajax;0;3;Liverpool;Amsterdam Arena;5.6;2.5
+A;Napoli;3;0;Rangers;San Paolo;3;4.5
+A;Rangers;1;2;Ajax;Ibrox Stadium;2.5;4.4
+A;Liverpool;2;0;Napoli;Anfield;2.6;5.9
+B;Atletico Madrid;2;1;Porto;Vicente Calderon;4.2;1.2
+B;Club Brugge;1;0;Bayer Leverkusen;Jan Breydel;4.1;0.9
+B;Bayer Leverkusen;2;0;Atletico Madrid;BayArena;0.9;3.1
+B;Porto;0;4;Club Brugge;Estadio do Dragao;2.6;1
+B;Club Brugge;2;0;Atletico Madrid;Jan Breydel;3.9;3.2
+B;Porto;2;0;Bayer Leverkusen;Estadio do Dragao;1.2;3.5
+B;Atletico Madrid;0;0;Club Brugge;Vicente Calderon;4.6;5.3
+B;Bayer Leverkusen;0;3;Porto;BayArena;3.1;2.8
+B;Club Brugge;0;4;Porto;Jan Breydel;5.2;2.8
+B;Atletico Madrid;2;2;Bayer Leverkusen;Vicente Calderon;5.2;1.9
+B;Porto;2;1;Atletico Madrid;Estadio do Dragao;4.6;2.6
+B;Bayer Leverkusen;0;0;Club Brugge;BayArena;0.9;2.9
+C;Inter Milan;0;2;Bayern Munich;San Siro;5;4
+C;Barcelona;5;1;Viktoria Plzen;Nou Camp;4.4;2.9
+C;Viktoria Plzen;0;2;Inter Milan;Doosan Arena;3.1;5.6
+C;Bayern Munich;2;0;Barcelona;Allianz Arena;2.5;5.6
+C;Bayern Munich;5;0;Viktoria Plzen;Allianz Arena;2.6;4.7
+C;Inter Milan;1;0;Barcelona;San Siro;2.4;2
+C;Viktoria Plzen;2;4;Bayern Munich;Doosan Arena;1.1;1.6
+C;Barcelona;3;3;Inter Milan;Nou Camp;0.5;5.8
+C;Inter Milan;4;0;Viktoria Plzen;San Siro;3;3.4
+C;Barcelona;0;3;Bayern Munich;Nou Camp;1.3;1.6
+C;Bayern Munich;2;0;Inter Milan;Allianz Arena;4.6;2.2
+C;Viktoria Plzen;2;4;Barcelona;Doosan Arena;5.8;2.4
+D;Eintracht Frankfurt;0;3;Sporting CP;Eintracht-Stadion;3.4;5.5
+D;Tottenham Hotspur;2;0;Olympique Marseille;Tottenham Hotspur Stadium;1.7;2.8
+D;Sporting CP;2;0;Tottenham Hotspur;José Alvalade;1.4;1.9
+D;Olympique Marseille;0;1;Eintracht Frankfurt;Vélodrome;2.5;3.6
+D;Olympique Marseille;4;1;Sporting CP;Vélodrome;2.8;2.9
+D;Eintracht Frankfurt;0;0;Tottenham Hotspur;Eintracht-Stadion;5;2.3
+D;Tottenham Hotspur;3;2;Eintracht Frankfurt;Tottenham Hotspur Stadium;2.5;4.2
+D;Sporting CP;0;2;Olympique Marseille;José Alvalade;1;4.8
+D;Eintracht Frankfurt;2;1;Olympique Marseille;Eintracht-Stadion;1.9;5.4
+D;Tottenham Hotspur;1;1;Sporting CP;Tottenham Hotspur Stadium;4.4;3.3
+D;Sporting CP;1;2;Eintracht Frankfurt;José Alvalade;3.1;5.9
+D;Olympique Marseille;1;2;Tottenham Hotspur;Vélodrome;5.5;5.8
+E;Dinamo Zagreb;1;0;Chelsea;Maksimir;0.6;2.3
+E;RB Salzburg;1;1;AC Milan;Red Bull Arena;3.2;4.9
+E;AC Milan;3;1;Dinamo Zagreb;San Siro;2.7;3.7
+E;Chelsea;1;1;RB Salzburg;Stamford Bridge;3.4;1.8
+E;RB Salzburg;1;0;Dinamo Zagreb;Red Bull Arena;2.7;5.9
+E;Chelsea;3;0;AC Milan;Stamford Bridge;1.4;3.5
+E;AC Milan;0;2;Chelsea;San Siro;5.6;2.2
+E;Dinamo Zagreb;1;1;RB Salzburg;Maksimir;3.4;3.1
+E;RB Salzburg;1;2;Chelsea;Red Bull Arena;1.6;2.9
+E;Dinamo Zagreb;0;4;AC Milan;Maksimir;1.3;1.4
+E;AC Milan;4;0;RB Salzburg;San Siro;5.8;2.7
+E;Chelsea;2;1;Dinamo Zagreb;Stamford Bridge;1.5;1.3
+F;Celtic;0;3;Real Madrid;Celtic Park;2.9;3.7
+F;RB Leipzig;1;4;Shakhtar Donetsk;Red Bull Arena;4.1;3.5
+F;Shakhtar Donetsk;1;1;Celtic;Donbass Arena;1.5;1.7
+F;Real Madrid;2;0;RB Leipzig;Santiago Bernabeu;5.2;5.3
+F;RB Leipzig;3;1;Celtic;Red Bull Arena;1.1;1
+F;Real Madrid;2;1;Shakhtar Donetsk;Santiago Bernabeu;1.3;1.9
+F;Celtic;0;2;RB Leipzig;Celtic Park;1.2;0.5
+F;Shakhtar Donetsk;1;1;Real Madrid;Donbass Arena;4.6;1.2
+F;Celtic;1;1;Shakhtar Donetsk;Celtic Park;4.7;3.3
+F;RB Leipzig;3;2;Real Madrid;Red Bull Arena;5.1;4.1
+F;Real Madrid;5;1;Celtic;Santiago Bernabeu;3.5;0.5
+F;Shakhtar Donetsk;0;4;RB Leipzig;Donbass Arena;4.9;2.7
+G;Borussia Dortmund;3;0;FC Copenhagen;Signal Iduna Park;2.6;0.3
+G;Sevilla;0;4;Manchester City;Ramon Sanchez Pizjuan;0.4;1.4
+G;Manchester City;2;1;Borussia Dortmund;Etihad;0.3;1.7
+G;FC Copenhagen;0;0;Sevilla;Parken Stadium;2.2;5.4
+G;Sevilla;1;4;Borussia Dortmund;Ramon Sanchez Pizjuan;2;2.3
+G;Manchester City;5;0;FC Copenhagen;Etihad;2;0.9
+G;FC Copenhagen;0;0;Manchester City;Parken Stadium;4.5;3.2
+G;Borussia Dortmund;1;1;Sevilla;Signal Iduna Park;3.1;5.2
+G;Sevilla;3;0;FC Copenhagen;Ramon Sanchez Pizjuan;2.5;4.6
+G;Borussia Dortmund;0;0;Manchester City;Signal Iduna Park;3.3;5
+G;FC Copenhagen;1;1;Borussia Dortmund;Parken Stadium;1.8;1.7
+G;Manchester City;3;1;Sevilla;Etihad;1.4;2.6
+H;PSG;2;1;Juventus;Parc des Princes;5.2;3.4
+H;Benfica;2;0;Maccabi Haifa;Stadion da Luz;5.4;2.1
+H;Juventus;1;2;Benfica;Allianz Stadium;4.8;1.6
+H;Maccabi Haifa;1;3;PSG;Sammy Ofer;4.6;1.2
+H;Juventus;3;1;Maccabi Haifa;Allianz Stadium;3.7;3.6
+H;Benfica;1;1;PSG;Stadion da Luz;2;5.4
+H;Maccabi Haifa;2;0;Juventus;Sammy Ofer;1.4;3.1
+H;PSG;1;1;Benfica;Parc des Princes;4.9;0.7
+H;Benfica;4;3;Juventus;Stadion da Luz;5.5;4.6
+H;PSG;7;2;Maccabi Haifa;Parc des Princes;1.2;3.3
+H;Juventus;1;2;PSG;Allianz Stadium;1.2;3.6
+H;Maccabi Haifa;1;6;Benfica;Sammy Ofer;1.1;5.1
