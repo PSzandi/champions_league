@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Quarter Finals</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Quarter Finals</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/bracket">Bracket</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Home Team</th>
+            <th>Aggregated Score</th>
+            <th>Away Team</th>
+            <th>Home Game</th>
+            <th>Away Game</th>
+            <th>Home Team xG1</th>
+            <th>Away Team xG1</th>
+            <th>Home Team xG2</th>
+            <th>Away Team xG2</th>
+            <th>Home Stadium</th>
+            <th>Away Stadium</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for match in quarter_finals_db %}
+        <tr>
+            <td>{{ match[0] }}</td>  <!-- Home Team -->
+            <td>{{ match[1] }}</td>  <!-- Aggregated Score -->
+            <td>{{ match[2] }}</td>  <!-- Away Team -->
+            <td>{{ match[3] }}</td>  <!-- Home Game -->
+            <td>{{ match[4] }}</td>  <!-- Away Game -->
+            <td>{{ match[5] }}</td>  <!-- Home Team xG1 -->            
+            <td>{{ match[6] }}</td>  <!-- Away Team xG1 -->
+            <td>{{ match[7] }}</td>  <!-- Home Team xG2 -->
+            <td>{{ match[8] }}</td>  <!-- Away Team xG2 -->            
+            <td>{{ match[9] }}</td>  <!-- Home Stadium -->
+            <td>{{ match[10] }}</td>  <!-- Away Stadium -->
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

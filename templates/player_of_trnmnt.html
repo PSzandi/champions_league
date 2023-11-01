@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Player of the Tournament</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Player of the Tournament</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/player_stats">Player Statistics</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Player</th>
+            <th>Nationality</th>
+            <th>Club</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in player_of_trnmnt_db %}
+        <tr>
+            <td>{{ player[0] }}</td>  <!-- Player name -->
+            <td>{{ player[1] }}</td>  <!-- Nationality -->
+            <td>{{ player[2] }}</td>  <!-- Club -->            
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

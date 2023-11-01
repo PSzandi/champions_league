@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Most Clean Sheets</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Most Clean Sheets</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/player_stats">Player Statistics</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Club</th>
+            <th>Clean Sheets</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in most_clean_sheets_db %}
+        <tr>
+            <td>{{ player[0] }}</td>  <!-- Rank -->
+            <td>{{ player[1] }}</td>  <!-- Player name -->
+            <td>{{ player[2] }}</td>  <!-- Club -->
+            <td>{{ player[3] }}</td>  <!-- Clean Sheets -->
+            
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

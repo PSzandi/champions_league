@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Group Stage Matches</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Group Stage Matches</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/bracket">Bracket</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Group</th>
+            <th>Home Team</th>
+            <th>Home Score</th>
+            <th>Away Score</th>
+            <th>Away Team</th>
+            <th>Stadium</th>
+            <th>xG1</th>
+            <th>xG2</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for match in group_stage_matches_db %}
+        <tr>
+            <td>{{ match[0] }}</td>  <!-- Group -->
+            <td>{{ match[1] }}</td>  <!-- Home Team -->
+            <td>{{ match[2] }}</td>  <!-- Home Score -->
+            <td>{{ match[3] }}</td>  <!-- Away Score -->
+            <td>{{ match[4] }}</td>  <!-- Away Team -->
+            <td>{{ match[5] }}</td>  <!-- Stadium -->            
+            <td>{{ match[6] }}</td>  <!-- xG1 -->
+            <td>{{ match[7] }}</td>  <!-- xG2 -->
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

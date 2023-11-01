@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Player Statistics</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Player Statistics</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/player_stats?subpage=team_of_yr">Team of the Year</a></li>
+        <li><a href="/player_stats?subpage=top_scorers">Top Scorers</a></li>
+        <li><a href="/player_stats?subpage=top_assisters">Top Assisters</a></li>
+        <li><a href="/player_stats?subpage=most_clean_sheets">Most Clean Sheets</a></li>
+        <li><a href="/player_stats?subpage=player_of_trnmnt">Player of the Tournament</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Player</th>
+            <th>Nationality</th>
+            <th>Position</th>
+            <th>Club</th>
+            <th>Age</th>
+            <th>Born</th>
+            <th>MP</th>
+            <th>Starts</th>
+            <th>Minutes</th>
+            <th>90s</th>
+            <th>Goals</th>
+            <th>Assists</th>
+            <th>Goals and Assists</th>
+            <th>Yellow Cards</th>
+            <th>Red Cards</th>
+            <th>xG</th>
+            <th>xAG</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in player_stats_db %}
+        <tr>
+            <td>{{ player[0] }}</td>  <!-- Player name -->
+            <td>{{ player[1] }}</td>  <!-- Nationality -->
+            <td>{{ player[2] }}</td>  <!-- Position -->
+            <td>{{ player[3] }}</td>  <!-- Club -->
+            <td>{{ player[4] }}</td>  <!-- Age -->
+            <td>{{ player[5] }}</td>  <!-- Born -->
+            <td>{{ player[6] }}</td>  <!-- MP -->
+            <td>{{ player[7] }}</td>  <!-- Starts -->
+            <td>{{ player[8] }}</td>  <!-- Minutes -->
+            <td>{{ player[9] }}</td>  <!-- 90s -->
+            <td>{{ player[10] }}</td>  <!-- Goals -->
+            <td>{{ player[11] }}</td>  <!-- Assists -->
+            <td>{{ player[12] }}</td>  <!-- Goals and Assists -->
+            <td>{{ player[13] }}</td>  <!-- Yellow Cards -->
+            <td>{{ player[14] }}</td>  <!-- Red Cards -->
+            <td>{{ player[15] }}</td>  <!-- xG -->
+            <td>{{ player[16] }}</td>  <!-- xAG -->
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

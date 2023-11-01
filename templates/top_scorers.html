@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Top Scorers</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Top Scorers</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/player_stats">Player Statistics</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Club</th>
+            <th>Goals Scored</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in top_scorers_db %}
+        <tr>
+            <td>{{ player[0] }}</td>  <!-- Rank -->
+            <td>{{ player[1] }}</td>  <!-- Player name -->
+            <td>{{ player[2] }}</td>  <!-- Club -->
+            <td>{{ player[3] }}</td>  <!-- Goals Scored -->
+            
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

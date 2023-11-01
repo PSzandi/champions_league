@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Club Statistics</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Club Statistics</h1>
+    <a href="/">Main Page</a>
+    <table>
+        <thead>
+        <tr>
+            <th>Nation</th>
+            <th>Club</th>
+            <th>Games Played</th>
+            <th>Goals Scored</th>
+            <th>Yellow Cards</th>
+            <th>Red Cards</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for club in club_stats_db %}
+        <tr>
+            <td>{{ club[0] }}</td>  <!-- Nationality -->
+            <td>{{ club[1] }}</td>  <!-- Club name -->
+            <td>{{ club[2] }}</td>  <!-- Games played -->
+            <td>{{ club[3] }}</td>  <!-- Goals scored -->
+            <td>{{ club[4] }}</td>  <!-- Yellow cards -->
+            <td>{{ club[5] }}</td>  <!-- Red cards -->
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

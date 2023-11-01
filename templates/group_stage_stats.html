@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Group Stage Statistics</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Group Stage Statistics</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/bracket">Bracket</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Club</th>
+            <th>Group</th>
+            <th>Win</th>
+            <th>Draw</th>
+            <th>Lose</th>
+            <th>Points</th>
+            <th>xG</th>
+            <th>xGA</th>
+            <th>xGD</th>
+            <th>Qualified</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for club in group_stage_stats_db %}
+        <tr>
+            <td>{{ club[0] }}</td>  <!-- Club -->
+            <td>{{ club[1] }}</td>  <!-- Group -->
+            <td>{{ club[2] }}</td>  <!-- Win -->
+            <td>{{ club[3] }}</td>  <!-- Draw -->
+            <td>{{ club[4] }}</td>  <!-- Lose -->
+            <td>{{ club[5] }}</td>  <!-- Points -->            
+            <td>{{ club[6] }}</td>  <!-- xG -->
+            <td>{{ club[7] }}</td>  <!-- xGA -->
+            <td>{{ club[8] }}</td>  <!-- xGD -->
+            <td>{{ club[9] }}</td>  <!-- Qualified -->
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions League | Team of the Year</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Team of the Year</h1>
+    <ul>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/player_stats">Player Statistics</a></li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Player</th>
+            <th>Club</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for team in team_of_yr_db %}
+        <tr>
+            <td>{{ team[0] }}</td>  <!-- Player name -->
+            <td>{{ team[1] }}</td>  <!-- Club -->
+            
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
