@@ -182,7 +182,7 @@ VALUES ('Liel Abada','ISR','FW,MF','Celtic',20,2001,5,4,217,2.4,0,0,0,0,0,0.3,0.
 ('Ben Davies','WAL','DF','Tottenham Hotspur',29,1993,7,4,392,4.4,0,0,0,0,0,0,0),
 ('Ben Davies','ENG','DF','Rangers',26,1995,3,3,260,2.9,0,0,0,1,0,0.1,0),
 ('Steven Davis','NIR','MF','Rangers',37,1985,5,3,249,2.8,0,0,0,0,0,0,0),
-('Kevin De Bruyne','BEL','MF','Manchester City',31,1991,10,9,716,8,2,6,8,1,0,1.3,3.5),
+('Kevin De Bruyne','BEL','MF','Manchester City',31,1991,10,9,716,8,2,7,8,1,0,1.3,3.5),
 ('Charles De Ketelaere','BEL','MF,FW','AC Milan',21,2001,6,3,234,2.6,0,0,0,1,0,0.5,0),
 ('Rodrigo De Paul','ARG','MF','Atletico Madrid',28,1994,5,1,256,2.8,1,0,1,1,0,0.2,0.5),
 ('Mattia De Sciglio','ITA','DF','Juventus',29,1992,3,1,95,1.1,0,0,0,0,0,0,0),
