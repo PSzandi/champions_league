@@ -21,7 +21,7 @@ def player_stats():
     try:
         conn = connect_db()
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM player_stats')
+        cursor.execute('SELECT * FROM player_stats ORDER BY player ASC')
         player_stats = cursor.fetchall()
         
     except sqlite3.Error as e:
@@ -37,7 +37,7 @@ def player_stats():
     if subpage == 'team_of_yr':
         conn = connect_db()
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM team_of_yr')
+        cursor.execute('SELECT * FROM team_of_yr ORDER BY player ASC')
         team_of_yr = cursor.fetchall()
         conn.close()
         return render_template('team_of_yr.html', team_of_yr_db=team_of_yr)
@@ -86,7 +86,7 @@ def player_stats():
 def club_stats():
     conn = connect_db()
     cursor = conn.cursor()
-    cursor.execute('SELECT * FROM club_stats')
+    cursor.execute('SELECT * FROM club_stats ORDER BY nation ASC')
     club_stats = cursor.fetchall()
     conn.close()
     return render_template('club_stats.html', club_stats_db=club_stats)

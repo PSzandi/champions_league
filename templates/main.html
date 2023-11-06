@@ -2,14 +2,65 @@
 <html>
 <head>
     <title>Champions League | Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            margin-left: 20vh;
+            margin-right: 20vh;
+        }
+
+        .container {
+            height: 93.5vh;
+            display: grid; 
+            grid-template-columns: 1fr; 
+            grid-template-rows: 1fr 1fr 1fr; 
+            gap: 0px 0px; 
+            grid-template-areas: 
+                "."
+                "."
+                "."; 
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            border: 2px solid #ccc;
+            background-color: #006ACC;
+            padding: auto;
+            justify-content: flex-end;
+        }
+
+        .row:nth-of-type(even) {
+            background-color: #397bb9;
+            justify-content: flex-start;
+        }
+
+    </style>
 </head>
 <body>
     {% include 'header.html' %}
-    <h1>Main Page</h1>
-    <ul>
-        <li><a href="/player_stats">Player Statistics</a></li>
-        <li><a href="/club_stats">Club Statistics</a></li>
-        <li><a href="/bracket">Bracket</a></li>
-    </ul>
+    <div class="container">
+        <div class="row">
+            <button href="/player_stats">Player Statistics</button>
+        </div>
+        <div class="row">
+            <button href="/club_stats">Club Statistics</button>
+        </div>
+        <div class="row">
+            <button href="/bracket">Bracket</button>
+        </div>
+    </div>
 </body>
 </html>
